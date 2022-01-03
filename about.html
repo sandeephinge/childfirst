@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML5 Layout</title>
+        <style type="text/css">
+            header, section, footer, aside, nav, article, figure, figcaption {
+                display: block;}
+        body {
+            color: #666666;
+            background-color: #f9f8f6;
+            background-image: url("images/dark-wood.jpg");
+            background-position: center;
+            font-family: Georgia, times, serif;
+            line-height: 1.4em;
+            margin: 0px}
+        .wrapper {
+            width: 940px;
+            margin: 20px auto 20px auto;
+            border: 2px solid #000000;
+            background-color: #ffffff;}
+        header {
+            height: 160px;
+            padding:0px;
+            background-image: url(images/nameonlylogo.jpg); background-repeat: no-repeat; background-position: center;}
+            h1 {
+                text-indent: -9999px;
+                width: 940px;
+                height: 130px;
+                margin: 0px;}
+        nav, footer {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+            font-size: medium;
+            font-weight: bold;
+            clear: both;
+            color:#e9e5f1;
+            background-color: #af0e0e;
+            height: 30px;
+            width: 940px; }
+        nav ul {
+            margin: 0px;
+            padding: 10px 0px 0px 0px;}
+        nav li {
+            display:inline;
+            margin-right: 105px;
+            }
+        nav li a {
+            color: #e9eee0;}
+        nav li a:hover, nav li a.current {
+            color: #d47bb6;}
+        section.courses {
+            float: left;
+            width: 659px;
+            border-right: 1px solod #eeeeee;}
+        article {
+            clear: both;
+            overflow: auto;
+            width: 100%;
+            padding: 10px;}
+        hgroup {
+            margin-top: 30px;
+        figure {
+            float: left;
+            width: 190px;
+            height: 120px;
+            padding: 5px;
+            margin: 20px;
+            border: 1px solid #eeeeee;}
+        figcaption {
+            font-size: 90%;
+            text-align: left;
+            padding-left: 40px;}
+        aside {
+            width: 230px;
+            float: left;
+            padding: 10px;}
+        aside section a:hover {
+            color: #985d6a;
+            background-color: #efefef;}
+        a {
+            color: #de6581;
+            text-decoration: none;}
+        h1, h2, h3 {
+            font-weight: normal;}
+            h2 {
+                margin: 10px 0px 5px 0px;
+                padding: 0px;}
+            h3 {
+                margin: 0px 0px 10px 0px;
+                color: #de6581;}
+            aside h2 {
+                padding: 30px 0px 10px 0px;
+                color: #de6581;}
+            footer {
+                font-size: 80%;
+                padding: 10px 0px 0px 20px ;}
+        </style>
+    </head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Child First</h1>
+            <nav>
+            <ol>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="keybenifits.html">Key Benifits</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ol>
+            </nav>
+        </header>
+        <section class="courses">
+            <article>
+                <figure>
+                    <img src="images/piclogo.jpg" alt="logo come here"/> 
+                </figure>
+                <hgroup>
+                    <h2>About Us</h2>
+                    <h3>Team Child First</h3>
+                </hgroup>
+                <p>We as Child First is India's first parent schooling company is founded in Jan. 2016.<br/>
+                Every child is born Genius but parents often do not understand the strenght and<br/> potentional of 
+                their child, and seed of Genius get ignored and never blossom.That's why knowing 
+                your child become extremly important.</p>
+            </article>
+            <article>
+                <hgroup>
+                    <h2>Our Mission</h2>
+                    <h3>Happy, focused nad passinate youth in the world</h3>
+                </hgroup>
+                <p>Today's child is future of tommorow's world, Happy child makes whole world happay <br/>
+                only those child who find there inside qualitises amd potentional and goals in their <br/>
+                early life can focuse and passinate in their action, but problem is
+                again in parenting<br/> only those parents can guid their child who have knowledge about <br/>
+                Learning Mechanism of their child  </p>
+                <hgroup>
+                    <h2>Our Vision</h2>
+                    <h3>Every child diserve better life.</h3>
+                    <p>Every child diserve better life, Life without stress, anxity, loanliness, hateress <br/>
+                        life without comparision, competetion and discremination and life full of love, <br/>
+                        happiness, satisfaction and kinbness is better life, only those parents can provide<br/>
+                        better life to their child who have knowledge about, Learning Mechanism of their child  </p>
+                </hgroup>
+            </article>
+        </section>
+        <aside>
+            <section class="popular-recipes">
+                <h2>Ours Training Programs</h2>
+                <a href="">Know your child</a><BR/>
+                <a href="">life is action</a><BR/>
+                <a href="">Life is relationships</a><BR/>
+                <a href="">Life is happiness</a>
+            </section>
+            <section class="contact-details">
+                <h2>Contact</h2>
+                <p>Child First<br/>
+                108, Narayan peth<br />
+                Kelkar road<br />
+                Pune 411003.<br />
+                E-mail : childfirstpune@gmail.come<br />
+                Contact : +91 9890350035</p>
+            </section>
+        </aside>
+        <footer>
+            &COPY; 2021 Child First<sup>TM</sup>
+        </footer>
+    </div><!-- wrapper -->
+    </body>
+</html>

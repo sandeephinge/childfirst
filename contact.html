@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML5 Layout</title>
+        <style type="text/css">
+            header, section, footer, aside, nav, article, figure, figcaption {
+                display: block;}
+        body {
+            color: #666666;
+            background-color: #f9f8f6;
+            background-image: url("images/dark-wood.jpg");
+            background-position: center;
+            font-family: Georgia, times, serif;
+            line-height: 1.4em;
+            margin: 0px}
+        .wrapper {
+            width: 940px;
+            margin: 20px auto 20px auto;
+            border: 2px solid #000000;
+            background-color: #ffffff;}
+        header {
+            height: 160px;
+            padding:0px;
+            background-image: url(images/nameonlylogo.jpg); background-repeat: no-repeat; background-position: center;}
+            h1 {
+                text-indent: -9999px;
+                width: 940px;
+                height: 130px;
+                margin: 0px;}
+        nav, footer {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+            font-size: medium;
+            font-weight: bold;
+            clear: both;
+            color:#e9e5f1;
+            background-color: #af0e0e;
+            height: 30px;
+            width: 940px; }
+        nav ul {
+            margin: 0px;
+            padding: 10px 0px 0px 0px;}
+        nav li {
+            display:inline;
+            margin-right: 105px;
+            }
+        nav li a {
+            color: #e9eee0;}
+        nav li a:hover, nav li a.current {
+            color: #d47bb6;}
+        section.courses {
+            float: left;
+            width: 659px;
+            border-right: 1px solod #eeeeee;}
+        article {
+            clear: both;
+            overflow: auto;
+            width: 100%;
+            padding: 10px;}
+        hgroup {
+            margin-top: 30px;
+        figure {
+            float: left;
+            width: 190px;
+            height: 120px;
+            padding: 5px;
+            margin: 20px;
+            border: 1px solid #eeeeee;}
+        figcaption {
+            font-size: 90%;
+            text-align: left;
+            padding-left: 40px;}
+        aside {
+            width: 230px;
+            float: left;
+            padding: 10px;}
+        aside section a:hover {
+            color: #985d6a;
+            background-color: #efefef;}
+        a {
+            color: #de6581;
+            text-decoration: none;}
+        h1, h2, h3 {
+            font-weight: normal;}
+            h2 {
+                margin: 10px 0px 5px 0px;
+                padding: 0px;}
+            h3 {
+                margin: 0px 0px 10px 0px;
+                color: #de6581;}
+            aside h2 {
+                padding: 30px 0px 10px 0px;
+                color: #de6581;}
+            footer {
+                font-size: 80%;
+                padding: 10px 0px 0px 20px ;}
+        </style>
+    </head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Child First</h1>
+            <nav>
+            <ol>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="keybenifits.html">Key Benifits</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ol>
+            </nav>
+        </header><br/><br/>
+	
+        
+        <aside align="center">
+            <section class="contact-details">
+		<img src="D:\Digital Marketing\website\images\piclogo.jpg">
+                <h2>Contact</h2>
+                <p>Child First<br/>
+                108, Sadashiv peth<br />
+                Tilak road<br />
+                Pune 411003.<br />
+                E-mail : childfirstpune@gmail.come<br />
+                Contact : +91 9673081444</p>
+            </section>
+        </aside>
+        <footer>
+            &COPY; 2021 Child First<sup>TM</sup>
+        </footer>
+    </div><!-- wrapper -->
+    </body>
+</html>
+		
